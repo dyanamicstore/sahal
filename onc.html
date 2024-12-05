@@ -1,0 +1,47 @@
+<html>
+<head>
+    <title>Order Confirmation</title>
+    <link rel="stylesheet" href="onc.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h2>DYANAMIC STORE</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="shop.html">Cart</a></li>
+                <li><a href="cont.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <div class="container">
+        <h1>Order Confirmation</h1>
+        <div class="order-details">
+            <p><strong>Order Number:</strong> <span id="order-number">2548779</span></p>
+            <p><strong>Customer Name:</strong> <span id="customer-name">John Doe</span></p>
+            <p><strong>Payment Method:</strong> <span id="payment-method">Online Payment</span></p>
+            <p><strong>Order Total:</strong> <span id="order-total">Rs:200.00</span></p>
+            <p><strong>Estimated Delivery:</strong> <span id="delivery-date">24th November 2024</span></p>
+        </div>
+        <div class="buttons">
+            <button onclick="goToHomepage()" class="btn">Go to Homepage</button>
+            <button onclick="updateOrderDetails()" class="btn">Update Order Details</button>
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 dyanamic_store. All rights reserved.</p>
+    </footer>
+
+    <script src="onc.js"></script>
+</body>
+</html>

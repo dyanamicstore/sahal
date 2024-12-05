@@ -1,0 +1,125 @@
+*
+{
+    padding:0;
+    margin:0;
+}
+.container
+{
+height:100%;
+width:100%;
+background-image: url('reiy.jpg');
+background-size: cover;
+height: 800px;
+}
+.top
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px 10px 10px 10px;
+    
+}
+.logo
+{ 
+    position: fixed;
+    width: 50%;
+    height:50px;
+    display:flex;
+    font-size:30px;
+    align-items:center;
+    color:lightgreen;
+    cursor: pointer;
+
+}
+.nav
+{
+    position: fixed;
+    text-align: left;
+    margin-top: 20px;
+    left: 600px;
+    display:flex;
+    width:50%;
+    justify-content:space-between;
+    align-items: center;
+    padding:0px 20px ;
+    font-weight: bold;
+    font-size: 18px;
+     color:rgb(12,82,0);
+     overflow: hidden;
+    list-style: none;
+     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.a
+{
+    padding: 10px;
+    color:black;
+}
+a{
+    color:#fff;
+
+    cursor:pointer;
+    text-decoration: none;
+}
+
+.heading
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 100px;
+
+}
+.text
+{
+    font-size: 50px;
+    color:#f3f3f3;
+    text-align: center;
+
+
+}
+p
+{
+    font-weight:bold ;
+    color:blueviolet;
+    font-size: 25px;
+}
+.butn{
+padding: 15px 20px;
+border-radius: 30px;
+border: 20;
+font-weight: bold;
+color: rgb(12,82,0);
+background-color: rgb(255,192,0);
+width:150px;
+cursor: pointer;
+}
+.right{
+  
+    background-size:cover;
+    position:relative;
+    left: -50px;
+}
+h3{
+    color:#f3f3f3;
+    text-shadow: blue;
+    margin-top: 25px;
+}
+i{
+ animation-duration: 100s;
+color:#fff;
+}
+.loader{
+    border:16px solid #f3f3f3;
+    border-top:16px solid #3498db;
+    border-radius: 50%;
+    width:120px;
+    height:120px;
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+0% { transform:rotate(0deg);}
+100% { transform: rotate(360deg);
+}
+}
+
